@@ -1,0 +1,25 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "This is a test text block"
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "Praca",
+          "data": {
+            "msteams": {
+              "type": "imBack",
+              "value": "praca"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
